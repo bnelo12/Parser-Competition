@@ -5,6 +5,13 @@ from nltk.corpus import brown
 
 # tagged_MH = nltk.pos_tag(MH, tagset="universal")
 
+def replace_chars(string):
+    string = string.replace("#", "HASH")
+    string = string.replace(":", "COLON")
+    string = string.replace(",", "COMMA")
+    string = string.replace(".", "PERIOD")
+    return string
+
 with open('allowed_words.txt') as f:
     freq_table = {};
     for line in open('allowed_words.txt'):
@@ -23,6 +30,6 @@ for word in freq_table:
     if not freq_table[word]:
         print word
     for pos in freq_table[word]:
-        vocab_file.write("{:<10}{:<10}{}\n".format(freq_table[word][pos], pos, word))
+        vocab_file.write("{:<10}{:<10}{}\n".format(freq_table[word][pos], replace_chars(pos), word))
 
 vocab_file.close()

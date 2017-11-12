@@ -1,0 +1,53 @@
+# The start symbol is TOP.
+
+# These two rules are required; choose their weights carefully!
+99  TOP  S1
+1   TOP  S2
+
+# This is a very, very, very simple grammar to get you started.
+5 S1 S-1 PERIOD
+1 S1 S-2 QMARK
+
+1 S-1 NNP VP
+1 S-1 NNP VPPP
+1 S-1 VP AP # Sent 3
+1 S-1 NP PP
+1 S-2 NPS PP
+
+1 S-2 WDT S-2
+1 S-2 DO NPS
+1 S-2 DOES NP
+
+1 NPS NNS VB
+
+1 NP DT NN
+1 NP NN VB
+1 NP NNP VB
+1 NP PRP VB
+
+1 NP NNP MDP
+3 NP NN MDP
+6 NP PRP MDP
+
+1 MDP MD BEP 
+
+1 BEP BE VBG
+1 BEP BE NP
+1 BEP BE JJ
+
+2 VP VBZ NP
+1 VP VBG PP
+
+1 AP VBZ JJ # Sent 3
+
+1 VPPP VP PP 
+
+6 PP IN PRP
+3 PP IN NP
+1 PP IN NNP # Sent 3
+
+1 VBZ HAS NP
+1 VBZ HAVE NP
+
+# in case you use S1.gr by itself
+1   S2  S1 

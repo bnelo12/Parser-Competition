@@ -27,7 +27,7 @@
 17        NN        system
 5         VBN       had
 160       VBD       had
-4885      ,         ,
+4885      COMMA     ,
 38        MD        should
 4         JJ        simple
 19        MD        must
@@ -41,7 +41,7 @@
 7         NN        strength
 3         MD        ought
 10        NNS       men
-16        :         ...
+16        COLON     ...
 70        PRP       them
 121       PRP$      his
 3         RP        around
@@ -67,7 +67,7 @@
 23        NNP       England
 14        VBD       went
 2         VBG       covering
-230       :         --
+230       COLON     --
 1         NN        winter
 62        VBD       did
 2         CC        either
@@ -118,10 +118,10 @@
 1         JJ        above
 2         RB        above
 15        IN        above
-171       :         ;
+171       COLON     ;
 1         RP        across
 14        IN        across
-40        .         ?
+40        PERIOD    ?
 3         NN        nose
 3         VBD       knew
 8         VB        run
@@ -173,6 +173,7 @@
 291       CC        or
 1         RB        south
 7         NN        purpose
+7         NN        king
 27        RB        then
 35        RB        already
 1         JJ        drunk
@@ -202,7 +203,7 @@
 12        RB        there
 210       PRP       they
 150       VBN       been
-3828      .         .
+3828      PERIOD    .
 6         NN        anyone
 181       PRP$      their
 1         VB        call
@@ -211,7 +212,7 @@
 14        VBZ       goes
 4         NN        master
 1         JJS       hottest
-142       :         :
+142       COLON     :
 16        NN        meeting
 1         VBP       tell
 1         VBG       speaking
@@ -224,6 +225,7 @@
 1         JJ        mine
 1         VBG       carrying
 3         VBZ       covers
+3         VBZ       rides
 2         NNS       covers
 1         VBG       riding
 12        VBN       known
@@ -278,7 +280,7 @@
 2         RB        any
 1         JJ        if
 80        IN        if
-6         .         !
+6         PERIOD    !
 14        RB        again
 7         MD        'll
 3         CD        5.5
