@@ -1,3 +1,27 @@
+1         -LRB-     (
+1         ``        ﻿
+1         -NONE-    ﻿ 
+1         NN        servant
+1         JJ        trusty
+1         JJ        sixty
+1         NNS       nights
+1         VB        grow
+1         NN        chalice
+1         NNS       strangers
+1         VBG       suggesting
+1         NNP       _Round _Table
+1         _Round    Round
+1         _Table    Table
+1         NNP       _Sir _Lancelot
+1        _Sir       Sir
+1        _Lancelot  Lancelot
+1         NNP       Guinevere
+1         NNP       Patsy
+1         NNP       Zoot
+1         NNP       _Holy _Grail
+1         _Holy     Holy
+1         _Grail    Grail
+1         NN       fruit
 86        DT        all
 14        PDT       all
 3         RB        all
@@ -65,6 +89,7 @@
 1         JJ        sensational
 20        VBG       going
 23        NNP       England
+26        NNP       Camelot
 14        VBD       went
 2         VBG       covering
 230       COLON     --
@@ -104,6 +129,9 @@
 6         VBD       suggested
 15        JJ        special
 1         NNS       drinks
+1         VB        ride
+1         VBD       rode
+1         VBD       drank
 1         VBG       living
 1         NN        living
 3         WDT       what
@@ -134,12 +162,12 @@
 1         VBP       burn
 6         NN        story
 2         NN        victory
-29        CD        five
+29        JJ        five
 163       WP        who
 3         NNP       Arthur
 280       MD        will
 1         NN        will
-1         NNS       English
+1         NNPS      English
 3         JJ        English
 3         NNP       English
 10        VB        put
@@ -160,7 +188,6 @@
 2         VBD       carried
 2         PRP       one
 9         NN        one
-121       CD        one
 2         NN        violence
 3         JJ        quiet
 32        NN        officer
@@ -174,6 +201,7 @@
 1         RB        south
 7         NN        purpose
 7         NN        king
+7         NN        horse
 27        RB        then
 35        RB        already
 1         JJ        drunk
@@ -356,3 +384,4 @@
 1         NNP       the
 11        VBG       having
 3         VBN       charged
+3         NNS       coconuts
